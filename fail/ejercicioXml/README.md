@@ -1,2 +1,0 @@
-# ejercicioXml
-hola patimi cola

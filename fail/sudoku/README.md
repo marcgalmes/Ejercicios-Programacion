@@ -1,2 +1,0 @@
-# sudoku
-proyecto colaborativo

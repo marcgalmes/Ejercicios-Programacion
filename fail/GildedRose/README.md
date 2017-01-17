@@ -1,3 +1,0 @@
-# GildedRose
-ejercicio gilderose
-"# GildedRose" 
