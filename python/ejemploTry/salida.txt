@@ -1,0 +1,21 @@
+---------------------------------------------
+EXCEPTION RAISED AND CAUGHT
+except run
+finally run
+after run
+---------------------------------------------
+NO EXCEPTION RAISED
+finally run
+after run
+---------------------------------------------
+NO EXCEPTION RAISED, WITH ELSE
+else run
+finally run
+after run
+---------------------------------------------
+EXCEPTION RAISED BUT NOT CAUGHT
+finally run
+Traceback (most recent call last):
+  File "mergedexc.py", line 39, in <module>
+    x = 1 / 0
+ZeroDivisionError: integer division or modulo by zero
