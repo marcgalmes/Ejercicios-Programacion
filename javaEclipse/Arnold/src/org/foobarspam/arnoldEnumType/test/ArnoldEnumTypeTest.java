@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.*;
 public class ArnoldEnumTypeTest {
 	
 	public static String[] planetas;
-	
+	////////
 
 	@BeforeClass
 	public static void CreacionArrayPlanetasSetup(){
