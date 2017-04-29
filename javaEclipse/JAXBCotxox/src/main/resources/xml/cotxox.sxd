@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="https://api.mobipalma.mobi/docs/"
+	xmlns:emt="https://api.mobipalma.mobi/docs/" elementFormDefault="unqualified">
+
+	<element name="carrera" type="emt:Carrera"></element>
+
+	<complexType name="Carrera">
+		<sequence>
+			<element name="tiempoEsperado" type="float"></element>
+			<element name="tiempoCarrera" type="float"></element>
+			<element name="costeTotal" type="float"></element>
+			<element name="conductor" type="emt:Conductor"></element>
+			<element name="destino" type="string"></element>
+			<element name="distancia" type="float"></element>
+			<element name="origen" type="string"></element>
+			<element name="tarjetaCredito" type="string"></element>
+			<element name="propina" type="float"></element>
+		</sequence>
+	</complexType>
+
+	<complexType name="Conductor">
+		<sequence>
+			<element name="nombre" type="string"></element>
+			<element name="modelo" type="string"></element>
+			<element name="matricula" type="string"></element>
+			<element name="valoracionMedia" type="float"></element>
+			<element name="valoraciones" type="float" maxOccurs="unbounded"></element>
+			<element name="ocupado" type="boolean"></element>
+		</sequence>
+	</complexType>
+</schema>

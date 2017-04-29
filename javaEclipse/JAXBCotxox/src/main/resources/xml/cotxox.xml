@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emt:carrera xmlns:emt="https://api.mobipalma.mobi/docs/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://api.mobipalma.mobi/docs/ Cotxtox_JAXB.xsd">
+	<tiempoEsperado>55.0</tiempoEsperado>
+	<tiempoCarrera>999.0</tiempoCarrera>
+	<costeTotal>5.0</costeTotal>
+	<conductor>
+		<nombre>Marc</nombre>
+		<modelo>Renol 1</modelo>
+		<matricula>8485GIF</matricula>
+		<valoracionMedia>1.0</valoracionMedia>
+		<valoraciones>433.0</valoraciones>
+		<ocupado>false</ocupado>
+	</conductor>
+	<destino>Antartida</destino>
+	<distancia>395673.0</distancia>
+	<origen>Madrid</origen>
+	<tarjetaCredito>480823418080</tarjetaCredito>
+	<propina>6.0</propina>
+</emt:carrera>
